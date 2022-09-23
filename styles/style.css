@@ -34,8 +34,6 @@
   margin-top: 80px;
 }*/
 
-.content {}
-
 /*header start*/
 
 .logo {
@@ -43,7 +41,7 @@
   height: 32px;
 }
 
-.logo__place_header {
+.header__logo {
   position: absolute;
   top: 30px;
   left: 64px;
