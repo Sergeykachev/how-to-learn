@@ -71,7 +71,7 @@
   bottom: 0;
   right: 0;
   z-index: 1;
-  object-fit: cover
+  object-fit: cover;
 }
 
 .header__main-illustration {
