@@ -333,6 +333,10 @@
   flex-basis: calc(100% / 3);
 }
 
+.footer__column_content_info {
+
+}
+
 .footer__social-icon {
   width: 16px;
   height: 16px;

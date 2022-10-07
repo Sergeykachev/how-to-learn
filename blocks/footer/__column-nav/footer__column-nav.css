@@ -1,0 +1,5 @@
+.footer__column-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: calc(100% / 3);
+}
