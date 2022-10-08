@@ -1,0 +1,9 @@
+.video_iframe {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.video_iframe:last-child {
+  margin-left: 20px;
+}
