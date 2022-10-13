@@ -7,9 +7,9 @@
 /*подключение гдобальных стилей начало*/
 
 @import url(../blocks/page/page.css);
-@import url(../blocks/link/opacity/opacity.css);
-@import url(../blocks/title/section-title/section-title.css);
-@import url(../blocks/title/section-subtitle/section-subtitle.css);
+@import url(../blocks/opacity-link/opacity-link.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
 
 /*подключение гдобальных стилей начало*/
 
@@ -38,7 +38,7 @@
 
 /*подключение модификаторов header начало*/
 
-@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/header/_place/logo_place_header.css);
 
 /*подключение модификаторов header конец*/
 
@@ -61,25 +61,24 @@
 /*подключение блоков techniques начало*/
 
 @import url(../blocks/techniques/techniques.css);
-@import url(../blocks/techniques/cards/cards.css);
+@import url(../blocks/cards/cards.css);
 
 /*подключение блоков techniques конец*/
 
 /*подключение элементов techniques начало*/
 
-@import url(../blocks/techniques/cards/__item/cards__item.css);
-@import url(../blocks/techniques/cards/__item/__image/cards__image.css);
-@import url(../blocks/techniques/cards/__item/__title/cards__title.css);
-@import url(../blocks/techniques/cards/__item/__description/cards__description.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__description/cards__description.css);
 
 /*подключение элементов techniques конец*/
 
 /*подключение блоков video начало*/
 
 @import url(../blocks/video/video.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
-@import url(../blocks/video/__iframes/video__iframes.css);
-@import url(../blocks/video/__iframes/__iframe/video__iframe.css);
 
 /*подключение блоков video конец*/
 
@@ -107,7 +106,6 @@
 @import url(../blocks/feynman/__title/feynman__title.css);
 @import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(../blocks/feynman/__link/feynman__link.css);
-@import url(../blocks/feynman/__link/__image/feynman__image.css);
 
 /*подключение элементов feynman конец*/
 
@@ -148,21 +146,21 @@
 
 /*подключение блоков kaufman начало*/
 
-@import url(../blocks/kauman/kaufman.css);
+@import url(../blocks/kaufman/kaufman.css);
 
 /*подключение блоков kaufman конец*/
 
 /*подключение модификаторов kaufman начало*/
 
-@import url(../blocks/kauman/_theme/table__cell_theme_dark.css);
-@import url(../blocks/kauman/_theme/table__heading_theme_dark.css);
-@import url(../blocks/kauman/_theme/table__text_theme_dark.css);
+@import url(../blocks/kaufman/_theme/table__cell_theme_dark.css);
+@import url(../blocks/kaufman/_theme/table__heading_theme_dark.css);
+@import url(../blocks/kaufman/_theme/table__text_theme_dark.css);
 
 /*подключение модификаторов kaufman конец*/
 
 /*подключение элементов kaufman начало*/
 
-@import url(../blocks/kauman/__triangle/kaufman__triangle.css);
+@import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
 /*подключение элементов kaufman конец*/
 
@@ -199,7 +197,7 @@
 
 /*подключение модификаторов footer начало*/
 
-@import url(../blocks/logo/_place/logo_place_footer.css);
+@import url(../blocks/footer/__columns/_place/logo_place_footer.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
 
 /*подключение модификаторов footer конец*/
