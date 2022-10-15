@@ -38,20 +38,14 @@
 
 /*подключение модификаторов header начало*/
 
-@import url(../blocks/header/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
 
-/*подключение модификаторов header конец*/
-
-/*подключение блоков description начало*/
-
-@import url(../blocks/content/description/description.css);
-
-/*подключение блоков description конец*/
+/*подключение модификаторов header начало*/
 
 /*подключение блоков two-columns начало*/
 
 @import url(../blocks/two-columns/two-columns.css);
-@import url(../blocks/two-columns/__bref/two__columns-bref.css);
+@import url(../blocks/two-columns/__bref/two-columns__bref.css);
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
@@ -150,9 +144,9 @@
 
 /*подключение модификаторов kaufman начало*/
 
-@import url(../blocks/kaufman/_theme/table__cell_theme_dark.css);
-@import url(../blocks/kaufman/_theme/table__heading_theme_dark.css);
-@import url(../blocks/kaufman/_theme/table__text_theme_dark.css);
+@import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
+@import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
+@import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
 
 /*подключение модификаторов kaufman конец*/
 
@@ -183,9 +177,9 @@
 /*подключение элементов footer начало*/
 
 @import url(../blocks/footer/__author/footer__author.css);
-@import url(../blocks/footer/__column/footer__column-heading.css);
-@import url(../blocks/footer/__column/footer__column-link.css);
-@import url(../blocks/footer/__column/footer__column-links.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css);
+@import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 
@@ -193,7 +187,7 @@
 
 /*подключение модификаторов footer начало*/
 
-@import url(../blocks/footer/__columns/_place/logo_place_footer.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
 
 /*подключение модификаторов footer конец*/
